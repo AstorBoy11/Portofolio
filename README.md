@@ -49,7 +49,7 @@ Portofolio/
 ├── public/
 │   ├── index.html
 │   ├── favicon.ico
-│   └── _redirects   # diperlukan untuk routing Netlify
+│   └── _redirects
 │
 ├── src/
 │   ├── components/
