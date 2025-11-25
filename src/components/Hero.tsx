@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
           </h1>
 
           <h2 className="hero-subtitle">
-            <span className="typing-text">Mobile & Web Developer</span>
+            <span className="typing-text">Frontend Web & Mobile Developer</span>
           </h2>
 
           <p className="hero-description">
@@ -42,12 +42,12 @@ const Hero: React.FC = () => {
                   strokeLinejoin="round"
                 />
               </svg>
+            </a>{" "}
+            <a href="#skills" className="btn btn-secondary">
+              <span>My Skills</span>
             </a>
             <a href="#contact" className="btn btn-secondary">
               <span>Contact Me</span>
-            </a>
-            <a href="#skills" className="btn btn-secondary">
-              <span>My Skills</span>
             </a>
           </div>
 
