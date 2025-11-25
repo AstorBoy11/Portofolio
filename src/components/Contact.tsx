@@ -1,29 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Contact.css';
-import { Globe, MapPinHouse, Mail } from 'lucide-react';
+import { MapPinHouse, Mail } from 'lucide-react';
 
 const Contact: React.FC = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Add your form submission logic here
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! I will get back to you soon.');
-    setFormData({ name: '', email: '', message: '' });
-  };
-
   return (
     <section className="contact" id="contact">
       <div className="container">
