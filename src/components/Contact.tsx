@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
                 <Mail />
                 <div>
                   <h4>Email</h4>
-                  <p>example@gmail.com</p>
+                  <p>arilardana111@gmail.com</p>
                 </div>
               </div>
               <div className="contact-item">
@@ -53,13 +53,13 @@ const Contact: React.FC = () => {
               </div>
             </div>
             <div className="social-links">
-              <a href="https://github.com" className="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/AstorBoy11" className="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
                 <span>GitHub</span>
               </a>
-              <a href="https://www.linkedin.com" className="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/aril-ibbet-ardana-putra-250484284/" className="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
                 <span>LinkedIn</span>
               </a>
-              <a href="https://www.instagram.com" className="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/aril_2.4/" className="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
                 <span>Instagram</span>
               </a>
             </div>
@@ -70,4 +70,4 @@ const Contact: React.FC = () => {
   );
 };
 
-export default Contact;
+export default Contact;

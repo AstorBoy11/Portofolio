@@ -14,24 +14,24 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'Your Project Title',
-      description: 'your project description here.',
+      title: 'CBF Tourism Recommender',
+      description: 'A Content-Based Filtering tourism recommendation system that helps users discover the best tourist destinations based on their preferences.',
       technologies: ['JavaScript', 'Web Development', 'Algorithm'],
-      githubLink: 'https://github.com',
+      githubLink: 'https://github.com/AstorBoy11/CBF-Tourism-Recommender',
     },
     {
       id: 2,
-      title: 'Your Project Title',
-      description: 'your project description here.',
+      title: 'PBL Jawara Mobile',
+      description: 'A mobile application project built with Flutter/Dart, showcasing modern mobile development practices and clean architecture.',
       technologies: ['Dart', 'Flutter', 'Mobile Development'],
-      githubLink: 'https://github.com',
+      githubLink: 'https://github.com/AstorBoy11/PBL-Jawara-Mobile',
     },
     {
       id: 3,
-      title: 'Your Project Title',
-      description: 'your project description here.',
+      title: 'MAGNET-Magang and Network Tracking',
+      description: 'MAGNET (Magang Network And Tracking) adalah sistem rekomendasi berbasis web yang dirancang untuk membantu mahasiswa Jurusan Teknologi Informasi Politeknik Negeri Malang dalam menemukan peluang magang yang paling sesuai.',
       technologies: ['PHP', 'Laravel'],
-      githubLink: 'https://github.com',
+      githubLink: 'https://github.com/AstorBoy11/MAGNET-Magang-Network-And-Tracking.git',
     },
   ];
 
