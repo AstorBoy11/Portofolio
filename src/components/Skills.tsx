@@ -18,8 +18,8 @@ const Skills: React.FC = () => {
     { name: 'Next.js', level: 40, category: 'Frontend' },
     { name: 'TypeScript', level: 60, category: 'Frontend' },
     { name: 'HTML/CSS', level: 95, category: 'Frontend' },
-    { name: 'Git/GitHub', level: 90, category: 'Tools' },
-    { name: 'VS Code', level: 100, category: 'Tools' },
+    { name: 'Git/GitHub', level: 70, category: 'Tools' },
+    { name: 'VS Code', level: 80, category: 'Tools' },
   ];
 
   const categories = ['Mobile', 'Frontend', 'Tools'];

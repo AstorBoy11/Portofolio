@@ -24,8 +24,9 @@ const Hero: React.FC = () => {
           </h2>
 
           <p className="hero-description">
-            Passionate about creating beautiful mobile applications with
-            <strong> Flutter/Dart</strong> and modern web experiences with
+            Right now im a 3<sup style={{ fontSize: "0.7em" }}>rd </sup>
+            year student at State Polytechnic of Malang. Passionate about
+            creating beautiful mobile applications with modern web experiences with
             <strong> React & TypeScript</strong>. Turning ideas into reality,
             one line of code at a time.
           </p>
