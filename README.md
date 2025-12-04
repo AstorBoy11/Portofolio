@@ -7,7 +7,7 @@
 ---
 
 ### 🔗 Demo Website  
-🌍 **Live Preview:** https://astorboy-portofolio.netlify.app/
+🌍 **Live Preview:** https://astorboy11.github.io/Portofolio/
 
 ---
 
@@ -96,9 +96,3 @@ npm run build
 This project is open-source and licensed under the **MIT License**.
 
 ---
-
-<div align="center">
-
-⭐ **Jangan lupa kasih bintang (Star) di repository ini!** ⭐
-
-</div>
