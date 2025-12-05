@@ -33,6 +33,13 @@ const Projects: React.FC = () => {
       technologies: ['PHP', 'Laravel'],
       githubLink: 'https://github.com/AstorBoy11/MAGNET-Magang-Network-And-Tracking.git',
     },
+    {
+      id: 4,
+      title: 'MoneyFlow-Personal-Expense-Tracker',
+      description: 'A personal expense tracker application that helps users manage their finances effectively by tracking income and expenses.',
+      technologies: ['Laravel', 'React', 'TypeScript'],
+      githubLink: 'https://github.com/AstorBoy11/MoneyFlow-Personal-Expense-Tracker.git',
+    },
   ];
 
   return (
