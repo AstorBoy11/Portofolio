@@ -1,0 +1,244 @@
+.certification {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
+}
+
+.certification .section__title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.certification__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.certification__card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  padding: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.certification__card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+}
+
+.certification__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.certification__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.certification__logo {
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.certification__logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.certification__button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.certification__button:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
+}
+
+.certification__button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.certification__title {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.certification__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.certification__issuer,
+.certification__date {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 0.95rem;
+}
+
+.certification__issuer svg,
+.certification__date svg {
+  opacity: 0.7;
+}
+
+.certification__skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.certification__skill {
+  background: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  transition: all 0.3s ease;
+}
+
+.certification__skill:hover {
+  background: rgba(29, 53, 91, 0.62);
+  border-color: rgba(59, 130, 246, 0.5);
+}
+
+@media (max-width: 768px) {
+  .certification {
+    padding: 60px 20px;
+  }
+
+  .certification .section__title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .certification__grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .certification__card {
+    padding: 20px;
+  }
+
+  .certification__logo {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+  }
+
+  .certification__title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .certification__info {
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+
+  .certification__issuer,
+  .certification__date {
+    font-size: 0.85rem;
+  }
+
+  .certification__skills {
+    gap: 8px;
+    margin-top: 15px;
+  }
+
+  .certification__skill {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .certification__button {
+    width: 100%;
+    justify-content: center;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .certification {
+    padding: 40px 15px;
+  }
+
+  .certification .section__title {
+    font-size: 1.75rem;
+  }
+
+  .certification__card {
+    padding: 16px;
+  }
+
+  .certification__logo {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+  }
+
+  .certification__title {
+    font-size: 1.1rem;
+  }
+
+  .certification__issuer,
+  .certification__date {
+    font-size: 0.8rem;
+  }
+
+  .certification__skill {
+    padding: 5px 10px;
+    font-size: 0.75rem;
+  }
+}
