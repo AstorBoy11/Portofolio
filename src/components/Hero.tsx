@@ -26,7 +26,8 @@ const Hero: React.FC = () => {
           <p className="hero-description">
             Right now im a 3<sup style={{ fontSize: "0.7em" }}>rd </sup>
             year student at State Polytechnic of Malang. Passionate about
-            creating beautiful mobile applications with modern web experiences with
+            creating beautiful mobile applications with modern web experiences
+            with
             <strong> React & TypeScript</strong>. Turning ideas into reality,
             one line of code at a time.
           </p>
@@ -44,6 +45,9 @@ const Hero: React.FC = () => {
                 />
               </svg>
             </a>{" "}
+            <a href="#certification" className="btn btn-secondary">
+              <span>My Certifications</span>
+            </a>
             <a href="#skills" className="btn btn-secondary">
               <span>My Skills</span>
             </a>

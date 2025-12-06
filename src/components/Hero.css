@@ -143,6 +143,9 @@
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  white-space: nowrap;
+  width: auto;
+  min-width: fit-content;
 }
 
 .btn::before {
@@ -193,6 +196,9 @@
   color: white;
   border: 2px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
+  white-space: nowrap;
+  width: auto;
+  min-width: fit-content;
 }
 
 .btn-secondary:hover {
