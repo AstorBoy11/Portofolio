@@ -40,6 +40,13 @@ const Projects: React.FC = () => {
       technologies: ['Laravel', 'React', 'TypeScript'],
       githubLink: 'https://github.com/AstorBoy11/MoneyFlow-Personal-Expense-Tracker.git',
     },
+        {
+      id: 5,
+      title: 'FutureIDX',
+      description: 'A web application that provides users with insights and predictions about IDX stock using data analysis and machine learning techniques.',
+      technologies: ['Laravel', 'React', 'TypeScript', 'Inertia.js'],
+      githubLink: 'https://github.com/AstorBoy11/FutureIDX.git',
+    },
   ];
 
   return (
