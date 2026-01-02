@@ -26,7 +26,6 @@
 - 📌 Section lengkap (Home, About, Skills, Projects, Contact)
 - 📱 **Fully Responsive**
 - 🎨 Custom styling yang clean dan minimalis
-- 🌐 Deploy otomatis via **Netlify**
 
 ---
 
@@ -37,7 +36,6 @@
 | **Frontend** | React, JavaScript/TypeScript |
 | **Styling** | CSS, Tailwind, custom design |
 | **Build Tool** | Create React App |
-| **Deployment** | Netlify |
 
 ---
 
