@@ -9,14 +9,15 @@ const About: React.FC = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm a passionate Frontend Developer with strong experience in
-              mobile and web technologies, especially Flutter, Dart, React, and
-              JavaScript.
+              I'm a passionate Frontend Developer specializing in modern web technologies
+              including React, Next.js, TypeScript, and Tailwind CSS. Currently working as
+              a Frontend JS Intern at Utero Kreatif Indonesia, building marketplace websites
+              with cutting-edge technologies.
             </p>
             <p>
-              I enjoy creating smooth, user-friendly mobile apps and modern web
-              interfaces. I'm always exploring new technologies and excited to
-              collaborate on meaningful, high-value projects.
+              I enjoy creating responsive, user-friendly web applications with clean code
+              and modern design principles. I'm constantly learning new technologies and
+              excited to collaborate on innovative projects that make a real impact.
             </p>
             <div className="about-stats">
               <div className="stat">
@@ -26,10 +27,6 @@ const About: React.FC = () => {
               <div className="stat">
                 <h3>5+</h3>
                 <p>Active Projects</p>
-              </div>
-              <div className="stat">
-                <h3>2x</h3>
-                <p>Pull Shark Achievement</p>
               </div>
             </div>
           </div>

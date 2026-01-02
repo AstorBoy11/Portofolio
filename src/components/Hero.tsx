@@ -20,13 +20,13 @@ const Hero: React.FC = () => {
           </h1>
 
           <h2 className="hero-subtitle">
-            <span className="typing-text">Frontend Web & Mobile Developer</span>
+            <span className="typing-text">Frontend Web Developer</span>
           </h2>
 
           <p className="hero-description">
             Right now im a 3<sup style={{ fontSize: "0.7em" }}>rd </sup>
             year student at State Polytechnic of Malang. Passionate about
-            creating beautiful mobile applications with modern web experiences
+            creating beautiful web  with modern web experiences
             using
             <strong> React & TypeScript</strong>. Turning ideas into reality,
             one line of code at a time.
