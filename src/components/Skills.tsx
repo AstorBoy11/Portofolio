@@ -9,20 +9,21 @@ interface Skill {
 
 const Skills: React.FC = () => {
   const skills: Skill[] = [
-    { name: 'Dart/Flutter', level: 50, category: 'Mobile' },
     { name: 'JavaScript', level: 70, category: 'Web development' },
     { name: 'React', level: 55, category: 'Web development' },
     { name: 'PHP', level: 75, category: 'Web development' },
     { name: 'Flutter', level: 60, category: 'Web development' },
     { name: 'Laravel', level: 80, category: 'Web development' },
-    { name: 'Next.js', level: 40, category: 'Web development' },
+    { name: 'Next.js', level: 50, category: 'Web development' },
     { name: 'TypeScript', level: 60, category: 'Web development' },
     { name: 'HTML/CSS', level: 95, category: 'Web development' },
     { name: 'Git/GitHub', level: 70, category: 'Tools' },
     { name: 'VS Code', level: 80, category: 'Tools' },
+    { name: 'WSL', level: 40, category: 'Tools' },
+    { name: 'Antigravity', level: 60, category: 'Tools' },
   ];
 
-  const categories = ['Mobile', 'Web development', 'Tools'];
+  const categories = ['Web development', 'Tools'];
 
   return (
     <section className="skills" id="skills">

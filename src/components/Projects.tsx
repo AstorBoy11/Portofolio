@@ -21,10 +21,10 @@ const Projects: React.FC = () => {
     },
     {
       id: 2,
-      title: 'PBL Jawara Mobile',
-      description: 'A mobile application project built with Flutter/Dart, showcasing modern mobile development practices and clean architecture.',
-      technologies: ['Dart', 'Flutter', 'Mobile Development'],
-      githubLink: 'https://github.com/AstorBoy11/PBL-Jawara-Mobile',
+      title: 'Advertisement-Intellegence-Data-Analytics',
+      description: 'A full-stack system for intelligent advertisement analytics consisting of a Frontend (React + TypeScript dashboard), Backend (Node.js + Express + MySQL), and Python modules for object detection and tracking using computer vision (YOLOv5)',
+      technologies: ['React', 'Python', 'TypeScript', 'Node.js'],
+      demoLink: '#',
     },
     {
       id: 3,
@@ -35,10 +35,10 @@ const Projects: React.FC = () => {
     },
     {
       id: 4,
-      title: 'MoneyFlow-Personal-Expense-Tracker',
-      description: 'A personal expense tracker application that helps users manage their finances effectively by tracking income and expenses.',
-      technologies: ['Laravel', 'React', 'TypeScript'],
-      githubLink: 'https://github.com/AstorBoy11/MoneyFlow-Personal-Expense-Tracker.git',
+      title: 'Attendify',
+      description: 'The minimalist time tracker designed for professionals who value focus. Track hours, set goals, and gain insights without the clutter.',
+      technologies: ['Next.js', 'React', 'TypeScript'],
+      demoLink: 'https://attendify-three-sigma.vercel.app/',
     },
         {
       id: 5,
@@ -46,6 +46,13 @@ const Projects: React.FC = () => {
       description: 'A web application that provides users with insights and predictions about IDX stock using data analysis and machine learning techniques.',
       technologies: ['Laravel', 'React', 'TypeScript', 'Inertia.js'],
       githubLink: 'https://github.com/AstorBoy11/FutureIDX.git',
+    },
+            {
+      id: 5,
+      title: 'Arunika',
+      description: 'A modern web platform designed to connect coffee lovers with high-quality beans through a seamless online shopping experience.',
+      technologies: ['Next.js', 'React', 'TypeScript', 'Node.js'],
+      githubLink: 'https://github.com/AstorBoy11/Arunika.git',
     },
   ];
 
