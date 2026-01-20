@@ -13,7 +13,6 @@
 
 ### 🏷️ Badges  
 ![React](https://img.shields.io/badge/React-18.0-blue?logo=react)
-![Netlify](https://img.shields.io/badge/Netlify-Deployed-success?logo=netlify)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
