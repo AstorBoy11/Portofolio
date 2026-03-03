@@ -3,7 +3,6 @@ import {
   Code2,
   Layers,
   Paintbrush,
-  Database,
   Wrench,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -31,19 +30,13 @@ const categories: SkillCategory[] = [
   {
     title: "Styling & UI",
     icon: Paintbrush,
-    skills: ["Tailwind CSS", "Shadcn UI", "Responsive Design", "CSS Modules"],
+    skills: ["Tailwind CSS", "Responsive Design", "CSS Modules"],
     accent: "from-[#38BDF8] to-[#818CF8]",
-  },
-  {
-    title: "State & Data",
-    icon: Database,
-    skills: ["React Hooks", "Context API", "REST APIs", "MySQL"],
-    accent: "from-[#F472B6] to-[#9333EA]",
   },
   {
     title: "Tools & Workflow",
     icon: Wrench,
-    skills: ["Git / GitHub", "Vite", "VS Code", "Figma", "WSL / Linux"],
+    skills: ["Git / GitHub", "VS Code",],
     accent: "from-[#F97316] to-[#EAB308]",
   },
 ];
