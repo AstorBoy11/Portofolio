@@ -1,9 +1,6 @@
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import Threads from "@/components/Threads";
-
-const techStack = ["React", "TypeScript", "Next.js", "Tailwind CSS"];
 
 export default function Hero() {
   return (
