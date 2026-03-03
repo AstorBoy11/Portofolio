@@ -28,12 +28,12 @@ export default function Hero() {
 
       <div className="relative z-10 w-full max-w-[900px] text-center">
         {/* Status badge */}
-        <div className="mb-8 animate-[fadeInUp_0.8s_ease-out_0.2s_backwards]">
+        {/* <div className="mb-8 animate-[fadeInUp_0.8s_ease-out_0.2s_backwards]">
           <Badge className="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-1.5 text-sm font-medium text-emerald-400 backdrop-blur-sm">
             <span className="mr-2 inline-block size-2 animate-pulse rounded-full bg-emerald-400" />
             Available for opportunities
           </Badge>
-        </div>
+        </div> */}
 
         {/* Name */}
         <h1 className="mb-4 animate-[fadeInUp_0.8s_ease-out_0.3s_backwards] text-[3.5rem] font-extrabold leading-[1.1] tracking-tight text-white lg:text-6xl max-md:text-[2.5rem] max-sm:text-[2rem]">
@@ -54,7 +54,7 @@ export default function Hero() {
         </p>
 
         {/* Tech badges */}
-        <div className="mb-10 flex flex-wrap justify-center gap-2 animate-[fadeInUp_0.8s_ease-out_0.5s_backwards]">
+        {/* <div className="mb-10 flex flex-wrap justify-center gap-2 animate-[fadeInUp_0.8s_ease-out_0.5s_backwards]">
           {techStack.map((tech) => (
             <Badge
               key={tech}
@@ -64,7 +64,7 @@ export default function Hero() {
               {tech}
             </Badge>
           ))}
-        </div>
+        </div> */}
 
         {/* CTA */}
         <div className="flex flex-wrap items-center justify-center gap-4 animate-[fadeInUp_0.8s_ease-out_0.6s_backwards] max-sm:flex-col max-sm:w-full">
