@@ -16,7 +16,7 @@ const experiences: ExperienceItem[] = [
     id: 1,
     title: "Frontend JS Intern",
     company: "Utero Kreatif Indonesia",
-    period: "January 2026 - Present",
+    period: "January 2026 - June 2026",
     description:
       "Build Marketplace website using Next.js, Tailwind CSS, and TypeScript.",
     skills: ["Next.js", "Tailwind CSS", "TypeScript", "React"],
