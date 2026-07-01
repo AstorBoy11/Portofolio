@@ -15,13 +15,23 @@ const experiences: ExperienceItem[] = [
   {
     id: 1,
     title: "Frontend JS Intern",
-    company: "Utero Kreatif Indonesia",
+    company: "PT Utero Kreatif Indonesia",
     period: "January 2026 - June 2026",
     description:
-      "Build Marketplace website using Next.js, Tailwind CSS, and TypeScript.",
+      "Build Dashboard Mamagement website using Next.js, Tailwind CSS, and TypeScript.",
     skills: ["Next.js", "Tailwind CSS", "TypeScript", "React"],
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr9kLuAfN1PXDXPF3FB8800Avl0PZkxnut1g&s",
   },
+  //   {
+  //   id: 2,
+  //   title: "Digital Transformation Intern",
+  //   company: "PT PAL Indonesia",
+  //   period: "July 2026 - December 2026",
+  //   description:
+  //     "Build Marketplace website using Next.js, Tailwind CSS, and TypeScript.",
+  //   skills: ["Next.js", "Tailwind CSS", "TypeScript", "React"],
+  //   logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt5EIt8oVWVXGFXtt1VrOMqMi9_hlpCNfvvQWBk1evvQ&s=10",
+  // },
 ];
 
 export default function Experience() {

@@ -56,22 +56,22 @@ const projects: Project[] = [
       "Responsive mobile-first design",
     ],
     technologies: ["Next.js", "React", "TypeScript", "Node.js"],
-    githubLink: "https://github.com/AstorBoy11/Arunika.git",
+    demoLink: "https://arunika-coffee.vercel.app/",
   },
   {
     id: 4,
-    title: "FutureIDX – Stock Prediction",
+    title: "NTB Times – Local News Website",
     problem:
-      "Retail investors lacked accessible tools for data-driven stock analysis.",
+      "The local community lacked a centralized, fast, and accessible digital platform for reliable regional news updates in NTB.",
     solution:
-      "Built a web app delivering IDX stock insights using Laravel + Inertia.js with React frontend and ML-based predictions.",
+      "Built a responsive and high-performance news portal equipped with an intuitive CMS for efficient article management and seamless reading experience.",
     features: [
-      "Interactive stock charts",
-      "ML-powered predictions",
-      "Inertia.js SPA routing",
+      "Custom Content Management System (CMS)",
+      "SEO-optimized rendering",
+      "Responsive design",
     ],
     technologies: ["Laravel", "React", "TypeScript", "Inertia.js"],
-    githubLink: "https://github.com/AstorBoy11/FutureIDX.git",
+    demoLink: "https://ntbtimes-news.com/",
   },
   {
     id: 5,
@@ -88,21 +88,6 @@ const projects: Project[] = [
     technologies: ["PHP", "Laravel"],
     githubLink:
       "https://github.com/AstorBoy11/MAGNET-Magang-Network-And-Tracking.git",
-  },
-  {
-    id: 6,
-    title: "CBF Tourism Recommender",
-    problem:
-      "Travelers had difficulty discovering destinations aligned with their preferences.",
-    solution:
-      "Implemented a content-based filtering algorithm that recommends tourist spots based on user preference data.",
-    features: [
-      "Content-based filtering engine",
-      "Preference-based recommendations",
-      "Lightweight vanilla JS interface",
-    ],
-    technologies: ["JavaScript", "Algorithm"],
-    githubLink: "https://github.com/AstorBoy11/CBF-Tourism-Recommender",
   },
 ];
 
