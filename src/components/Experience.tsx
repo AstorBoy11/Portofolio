@@ -1,5 +1,4 @@
 import { Building2, CalendarDays } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 
 interface ExperienceItem {
   id: number;
@@ -7,7 +6,6 @@ interface ExperienceItem {
   company: string;
   period: string;
   description: string;
-  skills: string[];
   logo: string;
 }
 
@@ -18,20 +16,19 @@ const experiences: ExperienceItem[] = [
     company: "PT Utero Kreatif Indonesia",
     period: "January 2026 - June 2026",
     description:
-      "Build Dashboard Mamagement website using Next.js, Tailwind CSS, and TypeScript.",
-    skills: ["Next.js", "Tailwind CSS", "TypeScript", "React"],
+    "",
+      // "Build Dashboard Mamagement website using Next.js, Tailwind CSS, and TypeScript.",
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr9kLuAfN1PXDXPF3FB8800Avl0PZkxnut1g&s",
   },
-  //   {
-  //   id: 2,
-  //   title: "Digital Transformation Intern",
-  //   company: "PT PAL Indonesia",
-  //   period: "July 2026 - December 2026",
-  //   description:
-  //     "Build Marketplace website using Next.js, Tailwind CSS, and TypeScript.",
-  //   skills: ["Next.js", "Tailwind CSS", "TypeScript", "React"],
-  //   logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt5EIt8oVWVXGFXtt1VrOMqMi9_hlpCNfvvQWBk1evvQ&s=10",
-  // },
+  {
+    id: 2,
+    title: "Digital Transformation Intern",
+    company: "PT PAL Indonesia",
+    period: "July 2026 - December 2026",
+    description:
+      "",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt5EIt8oVWVXGFXtt1VrOMqMi9_hlpCNfvvQWBk1evvQ&s=10",
+  },
 ];
 
 export default function Experience() {
@@ -42,11 +39,19 @@ export default function Experience() {
           Work Experience
         </h2>
 
-        <div className="mx-auto flex max-w-[1200px] flex-wrap items-center justify-center gap-8">
+        <div
+          className={`grid gap-8 mx-auto ${
+            experiences.length === 1
+              ? "grid-cols-1 max-w-[400px]"
+              : experiences.length === 2
+                ? "grid-cols-1 md:grid-cols-2 max-w-[800px]"
+                : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+          }`}
+        >
           {experiences.map((exp) => (
             <div
               key={exp.id}
-              className="group relative max-w-[500px] overflow-hidden rounded-2xl border border-[rgba(42,51,66,0.9)] bg-gradient-to-br from-[#1b2330] to-[#20293a] p-8 transition-all duration-300 hover:-translate-y-[5px] hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)] max-md:p-6 max-sm:p-5"
+              className="group relative flex flex-col h-full overflow-hidden rounded-2xl border border-[rgba(42,51,66,0.9)] bg-gradient-to-br from-[#1b2330] to-[#20293a] p-8 transition-all duration-300 hover:-translate-y-[5px] hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)] max-md:p-6 max-sm:p-5"
             >
               {/* Top gradient bar */}
               <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#12B3EB] to-[#5460F9]" />
@@ -83,19 +88,6 @@ export default function Experience() {
               <p className="mb-5 text-base leading-relaxed text-white/85 max-sm:text-sm">
                 {exp.description}
               </p>
-
-              {/* Skills */}
-              <div className="mt-5 flex flex-wrap gap-2.5">
-                {exp.skills.map((skill) => (
-                  <Badge
-                    key={skill}
-                    variant="outline"
-                    className="rounded-full border-[rgba(102,126,234,0.35)] bg-[rgba(102,126,234,0.12)] px-4 py-2 text-[0.85rem] font-medium text-white transition-all hover:-translate-y-0.5 hover:border-[rgba(102,126,234,0.6)] hover:bg-[rgba(102,126,234,0.25)] max-sm:px-3 max-sm:py-1.5 max-sm:text-xs"
-                  >
-                    {skill}
-                  </Badge>
-                ))}
-              </div>
             </div>
           ))}
         </div>

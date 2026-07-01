@@ -14,8 +14,8 @@ export default function About() {
             I'm a <span className="font-medium text-white">Frontend Developer</span> specializing
             in the React ecosystem — React, Next.js, TypeScript, and Tailwind CSS.
             Currently working as a{" "}
-            <span className="font-medium text-white">Frontend JS Intern</span> at
-            Utero Kreatif Indonesia, building production marketplace websites.
+            <span className="font-medium text-white">Digital Transformation Intern</span> at{" "}
+            <span className="font-medium text-white">PT PAL Indonesia.</span>
           </p>
           <p className="text-lg leading-relaxed text-muted-foreground max-md:text-base">
             I care deeply about <span className="font-medium text-white">clean architecture</span>,{" "}
