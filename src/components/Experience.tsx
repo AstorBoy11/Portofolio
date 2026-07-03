@@ -23,7 +23,7 @@ const experiences: ExperienceItem[] = [
   {
     id: 2,
     title: "Digital Transformation Intern",
-    company: "PT PAL Indonesia",
+    company: "PT PAL Indonesia (PERSERO)",
     period: "July 2026 - December 2026",
     description:
       "",
