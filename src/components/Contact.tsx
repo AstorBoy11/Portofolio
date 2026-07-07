@@ -9,7 +9,7 @@ const socials = [
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/aril-ibbet-ardana-putra-250484284/",
+    href: "https://www.linkedin.com/in/aril-ardana/",
     icon: Linkedin,
   },
   {
