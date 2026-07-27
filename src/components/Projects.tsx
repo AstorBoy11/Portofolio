@@ -41,7 +41,7 @@ const projects: Project[] = [
       "Clean, minimal dark UI",
     ],
     technologies: ["Next.js", "React", "TypeScript"],
-    demoLink: "https://attendify-three-sigma.vercel.app/",
+    githubLink: "https://github.com/AstorBoy11/Attendify",
   },
   {
     id: 3,
